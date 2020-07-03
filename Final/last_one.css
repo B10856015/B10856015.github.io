@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-family: fantasy;
+    color: gold;
+    font-size: 180%;
+    font-weight: bold;
+    line-height: 10px;
+}
+h2{
+    font-family: 微軟正黑體;
+    color: white;
+    line-height: 150px;
+    font-size: 180%;
+}
+P{
+    text-align: left;
+}
+span{
+    font-size: 120%;
+}
+a{
+    text-align: center;
+    margin: 10px;
+}
+input{
+    font-family: 微軟正黑體;
+    border: 0px white none;
+    background-color: white;
+    font-size: 140%;
+    width: 100px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+}
+input:hover{
+    border: 0px white none;
+    background-color: ghostwhite;
+    color: red;
+}
+#navbox{
+    text-align: center;
+    font-weight: bold;
+    background-color:rgba(255, 255, 255, 1.1);
+    border-bottom: black;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+#artclebox{
+    text-align: center;
+}
+#footerbox{
+    background-color: blue;
+    width: 100%;
+    /*position: relative;*/
+}
+#dash_1{
+    background-image: url(圖片\網路.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+    font-size: 160%;
+    width: 100%;
+}
+#navbox ul li{
+    display: inline;
+}
+.navu{
+    color: black;
+    text-decoration: none;
+}
+.trbox_0{
+    display: table-row;
+}
+.trbox{
+    display: table-row;
+}
+.thbox,.tdbox{
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+    padding: 5px 15px;
+}
+.trbox:nth-of-type(odd){
+    background-color: #eaeaea;
+}
+.footersrc{
+    /*position: absolute;
+    top: 60px;
+    left: 60px;*/
+    float: left;
+    padding: 30px 0 30px 6%;
+}
+.footer_1{
+    font-weight: bold;
+    color: white;
+    font-size: 150%;
+    line-height: 30px;
+    padding: 30px;
+    /*position: absolute;
+    top: 60px;
+    left: 90px;*/
+}
+.footerhr{
+    border-bottom: 2px rgb(51, 51, 155) solid;
+    width: 100%;
+
+}
+.footer_2{
+    color: lightblue;
+    padding: 20px 6% 20px 6%;
+}
+
+.limg{
+    float: left;
+}
+.lp{
+    text-align: left;
+}
+
+.sesion{
+    display: table-caption;
+    text-align:center;
+    line-height: 200px;
+    font-size: 200%;
+}
+.arthr{
+    width: 100%;
+}
+
+@media(min-width: 1000px){
+    #headerbox{
+        background-color: black;
+    }
+    .logo{
+        width: 85px;
+        float: left;
+    }
+    .caption{
+        font-family: fantasy;
+        color:  white;
+        line-height: 70px;
+        font-size: 250%;
+        font-weight: bold;
+    }
+    .da_src{
+        float: left;
+        padding: 70px;
+    }
+    .dash_1_p{
+        font-family: 微軟正黑體;
+        line-height: 50px;
+        padding: 70px;
+    }
+    .pssrc{
+        width: 600px;
+        float: left;
+        padding: 10%;
+    }
+    .tablebox{
+        font-family: sans-serif;
+        display: table;
+        border-collapse: separate;
+        border-spacing: 5px;
+        line-height: 30px;
+    }
+    .sesion{
+        display: table-caption;
+        font-family:fantasy;
+        text-align:center;
+        line-height: 300px;
+        font-size: 200%;
+    }
+}
+@media(max-width: 1000px){
+    p{
+        text-align: center;
+    }
+    #headerbox{
+        background-color: black;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    #dash_4{
+        text-align: center;
+    }
+    .logo{
+        width: 85px;
+        padding: 10px;
+    }
+    .caption{
+        font-family: fantasy;
+        color:  white;
+        line-height: 10px;
+        font-size: 200%;
+        font-weight: bold;
+    }
+    .da_src{
+        padding: 30px;
+    }
+    .dash_1_p{
+        font-family: 微軟正黑體;
+        line-height: 50px;
+        padding: 50px;
+    }
+    .pssrc{
+        width: 400px;
+        border: 30px white solid;
+    }
+    .tablebox{
+        font-family: 微軟正黑體;
+        display: table;
+        margin: 0 auto;
+        padding: 0 0 40px 0;
+        border-collapse: separate;
+        border-spacing: 5px;
+        line-height: 30px;
+    }
+    .sesion{
+        display: table-caption;
+        font-family:fantasy;
+        text-align:center;
+        line-height: 150px;
+        font-size: 200%;
+    }
+}
